@@ -1,0 +1,11 @@
+id = "toto"
+name = "sqlite schema description extension"
+description = "Extension adds the schema of an sqlite database to context for Zed."
+version = "0.1.0"
+schema_version = 1
+authors = ["Théophile Cantelobre <theophilec@gmail.com>"]
+repository = "https://github.com/theophilec/zed-slash-sqlite-schema"
+
+[slash_commands.schema]
+description = "add sqlite schema to context"
+requires_argument = true
